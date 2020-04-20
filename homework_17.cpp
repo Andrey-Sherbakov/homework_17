@@ -29,7 +29,7 @@ public:
     {
         std::cout << "\nКоординаты вектора:" << x << " " << y << " " << z;
     }
-    int Dlina()
+    double Dlina()
     {
         return(sqrt(x * x + y * y + z * z));
     }
